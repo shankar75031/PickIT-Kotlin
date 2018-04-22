@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1064017949780",
+    "firebase_url": "https://pickit-new.firebaseio.com",
+    "project_id": "pickit-new",
+    "storage_bucket": "pickit-new.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064017949780:android:d90891b6d25f452e",
+        "android_client_info": {
+          "package_name": "com.shankar.pickit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1064017949780-tmmp7ltc58k5qs23dtm8lug8i4lck511.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shankar.pickit",
+            "certificate_hash": "d65f68f22970bfc38b9020c2bbd0ebd950fecc13"
+          }
+        },
+        {
+          "client_id": "1064017949780-kp5vpt18b5r84h8fl54sqi42lqci04jp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSDquo310C5C-rNJRl8DNGa18xMAr6VRU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1064017949780-kp5vpt18b5r84h8fl54sqi42lqci04jp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
