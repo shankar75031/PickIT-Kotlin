@@ -9,6 +9,7 @@ import android.view.Window
 import android.view.WindowManager
 import com.shankar.pickit.R
 import com.shankar.pickit.data.USER_PNR
+import com.shankar.pickit.data.USER_PNR2
 import kotlinx.android.synthetic.main.activity_splash.*
 
 class SplashActivity : AppCompatActivity() {
@@ -22,7 +23,7 @@ class SplashActivity : AppCompatActivity() {
         splashVerifyPNRBtn.setOnClickListener {
             var userPnr = splashPNREt.text.toString().trim()
             if(!TextUtils.isEmpty(userPnr)){
-                if (userPnr.equals(USER_PNR)){
+                if (userPnr.equals(USER_PNR2)){
                     startActivity(Intent(this, DashboardActivity::class.java))
                     //TODO:Add PNR to SHAREDPREF to prevent asking again
                     finish()
